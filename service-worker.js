@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.f457b89a6398faf47fa1999b3e851a98.js"
+  "/precache-manifest.e8eab7fad3a74864bc7e0ef254f795b5.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "simplymove"});
