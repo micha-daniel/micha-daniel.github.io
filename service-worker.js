@@ -14,10 +14,10 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.b95e39889c1c73eaf9c08a43aa616cb4.js"
+  "/precache-manifest.10b58b85cd5599fe6fa891afffa841c0.js"
 );
 
-workbox.core.setCacheNameDetails({prefix: "simplymove"});
+workbox.core.setCacheNameDetails({prefix: "app"});
 
 self.addEventListener('message', (event) => {
   if (event.data && event.data.type === 'SKIP_WAITING') {
